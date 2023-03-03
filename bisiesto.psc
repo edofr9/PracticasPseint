@@ -1,23 +1,23 @@
 Algoritmo bisiesto
 	
-	Definir ano Como Entero
+	Definir year Como Entero
 	
-	Escribir "Ingrese el año a analizar si es bisiesto"
-	leer ano
+	Escribir "Ingrese el aï¿½o a analizar si es bisiesto"
+	leer year
 	
-	Si ano mod 4 = 0 Y ano mod 100 <> 0 Entonces
+	Si year mod 4 = 0 Y year mod 100 <> 0 Entonces
 		
-		Escribir "el ", ano, " es un año bisiesto"
+		Escribir "el ", year, " es un aï¿½o bisiesto"
 		
 	SiNo
 		
-		si ano mod 100 = 0 Y ano mod 400 = 0 Entonces
+		si year mod 100 = 0 Y year mod 400 = 0 Entonces
 			
-			Escribir "el ", ano, " es un año bisiesto"
+			Escribir "el ", year, " es un aï¿½o bisiesto"
 			
 		SiNo
 			
-			Escribir "el ", ano, " no es un año bisiesto"
+			Escribir "el ", year, " no es un aï¿½o bisiesto"
 			
 		FinSi
 		
