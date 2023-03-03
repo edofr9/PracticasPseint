@@ -1,7 +1,7 @@
 Algoritmo sin_titulo
 	
 	
-	Definir vocal_u, vocal  Como Caracter
+	Definir v_u, vocal  Como Caracter
 	
 	Escribir "Bienvenido al juego adivina la Vocal"
 	vocal="u"
@@ -9,10 +9,10 @@ Algoritmo sin_titulo
 	Hacer
 		
 		Escribir "Ingrese una vocal: "
-		leer vocal_u
-		vocal_u=Minusculas(vocal_u)
+		leer v_u
+		v_u=Minusculas(v_u)
 		
-	Mientras Que vocal_u != vocal
+	Mientras Que v_u != vocal
 	
 	Escribir "Muy bien has adivinado la vocal ", vocal
 	
